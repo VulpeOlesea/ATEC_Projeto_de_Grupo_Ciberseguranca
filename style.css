@@ -1,3 +1,11 @@
+/*
+=====================================================================
+*   Tarefa: T6 - Trabalho de Grupo
+*   UFCD: 5415 - WEB - hipermédia e acessibilidades
+*   Turma: TPSI PL 1223
+*   Formador: Rute Solipa
+*   Formandos: Leila Arruda, Lucas Patrício, Olesea Vulpe, Rúben Fonseca
+===================================================================== */
 body{
     background-color: black;
 }
@@ -19,4 +27,7 @@ section{
     border-color: black;
 }
 
+.section_2{
+    height: 1000px;
+}
  
