@@ -2,7 +2,7 @@ body{
     background-color: black;
 }
 
- #titulo{
+#titulo{
     color: rgba(240, 248, 255, 0.63);
     font-size: 10rem;
     display: flex;
@@ -10,5 +10,13 @@ body{
     justify-content: center;
     align-items: center;
  }
+
+section{
+    height: 650px;
+    background-color: aliceblue;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+}
 
  
