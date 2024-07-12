@@ -44,10 +44,10 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
+              <a class="nav-link active" aria-current="page" href="#section_1">O que é</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              <a class="nav-link active" aria-current="page" href="#section_2">Cibersegurança</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
@@ -110,7 +110,9 @@
 
    <main>
 
-      <section class="section_1">
+<!-- O que é
+   ================================================== -->
+      <section id="section_1">
         <div class="container px-4 py-5">
           <h2 id="titulo_1">O que é cibersegurança</h2>
           <p>
@@ -118,15 +120,15 @@
           </p>
         </div>
       </section>
-
-      <section class="section_2">
-        <div class="container px-4 py-5">
       
-          <div class="container">
-            <div class="row">
-              <div class="col-4">
-                <h2 class="fw-bold text-body-emphasis">Os quatro pilares da cibersegurança:</h2>
-                <p class="text-body-secondary">É fundamental reconhecer as
+<!-- Os quatro pilares
+   ================================================== -->
+      <section id="section_2">
+        <div class="container px-4 py-5">
+          <div class="row">
+            <div class="col-4">
+              <h2 class="fw-bold text-body-emphasis">Os quatro pilares da cibersegurança:</h2>
+              <p class="text-body-secondary">É fundamental reconhecer as
                 ameaças, endereçá-las com a implementação de uma estratégia
                 integrada e coesa, e, sobretudo, recorrer a quem melhor pode
                 ajudar a evitar danos graves na organização.  A prevenção e o
@@ -134,8 +136,9 @@
                 negócio pode fazer e para isso existem quatro pilares
                 fundamentais que qualquer organização deve adotar na sua
                 estratégia de cibersegurança:
-                </p>
-              </div>
+              </p>
+              <img class="pic" src="./img/sec_2.jpg">
+            </div>
               <div class="col-8">
                 <div class="row">
                   <div class="col-6">
@@ -205,71 +208,100 @@
                     recuperação.</p>
                   </div>
                 </div>
+              </div>
             </div>
           </div>
-
+        </div>
       </section>
 
 <!-- Accordion
    ================================================== -->
-      <section class="section_3">
-        <div class="container">
+      <section id="section_3">
+        <div class="container px-4 py-5">
           <div class="accordion" id="accordionPanelsStayOpenExample">
             <div class="accordion-item mx-2 my-2">
               <h2 class="accordion-header">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                  Em Portugal
+                  <i class="bi bi-shield-exclamation"> Cibersegurança em Portugal</i>
                 </button>
               </h2>
               <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
                 <div class="accordion-body">
-                  <p>Um estudo recente da Marsh Portugal revela que 2022 foi o ano em que, segundo o Centro Nacional de Cibersegurança, foram registados mais ataques “de grande impacto” a infraestruturas e serviços causando mais de cinco mil milhões de euros à economia mundial. É, por isso, essencial adotar uma estratégia de proteção para proteger o negócio.
+                    <p>Um estudo recente da Marsh Portugal revela que 2022 foi o ano em que, segundo o Centro Nacional de Cibersegurança, foram registados mais ataques “de grande impacto” a infraestruturas e serviços causando mais de cinco mil milhões de euros à economia mundial. É, por isso, essencial adotar uma estratégia de proteção para proteger o negócio.</p> 
                     <p>Embora muitas empresas usem palavras-passe seguras, menos de um terço aplica múltiplo fator de autenticação. Na Administração Pública, menos da metade adotou essa medida, mas a atualização regular de software é amplamente aplicada. As empresas dependem de fornecedores externos para segurança das TIC, enquanto a Administração Pública utiliza pessoal interno.</p> 
                     <p>A procura por competências em segurança das TIC na Administração Pública atingiu níveis elevados. Quase metade das entidades públicas e um pouco mais da metade das empresas oferecem recomendações de segurança aos funcionários, superando a média da UE para empresas.</p>
-                    </p>                </div>
+                </div>
               </div>
             </div>
             <div class="accordion-item mx-2 my-2">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                  Accordion Item #2
+                  <i class="bi bi-shield-exclamation"> Cibersegurança nas empresas</i>
                 </button>
               </h2>
               <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
                 <div class="accordion-body">
-                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                    <p>O Inquérito à utilização das TIC nas empresas, realizado pelo Eurostat (2023a-g) e pelo Instituto Nacional de Estatística (INE) para Portugal, apresenta atualizações importantes em 2022 relativamente à componente de segurança. À luz destes dados, verifica-se que em Portugal existiam mais empresas10 com Política de Segurança das TIC definida e revista pelo menos nos últimos 24 meses em 2022 (43%) do que em 201911 (26%) e do que a média da UE (32%).</p>
                 </div>
               </div>
             </div>
             <div class="accordion-item mx-2 my-2">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                  Accordion Item #3
+                  <i class="bi bi-shield-exclamation"> Ações de sensibilização e educação</i>
                 </button>
               </h2>
               <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
                 <div class="accordion-body">
-                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                  <p>Em 2022, as ações de sensibilização em cibersegurança em Portugal, realizadas por organizações especializadas, ocorreram principalmente através de sessões presenciais, online e cursos online. No entanto, ações via redes sociais e comunicação social alcançaram mais pessoas com menor envolvimento. Houve um aumento nas iniciativas voltadas para crianças e jovens, com destaque para ciber-higiene e proteção de dados.</p>
+                  <p>Empresas e organismos públicos aumentaram suas ações de sensibilização para funcionários, com quase dois terços das empresas e um terço da Administração Pública participando. No ensino superior, houve um crescimento no número de cursos e alunos em cibersegurança, embora a participação feminina ainda seja baixa.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item mx-2 my-2">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  <i class="bi bi-shield-exclamation"> Os cenários de ameaça</i>
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  <p>Os principais resultados da análise destacam as ameaças predominantes no ciberespaço, como ransomware, phishing e engenharia social, e a necessidade de mitigação por meio de controles técnicos e envolvimento humano. O aumento do uso digital expõe mais indivíduos a riscos, mas a maior notoriedade do tema pode melhorar a conscientização. A falta de políticas de segurança e de recursos humanos especializados, especialmente na Administração Pública, prejudica a capacidade de proteção. Ações de sensibilização e o crescimento de cursos especializados são cruciais para melhorar a resposta às ameaças e disseminar boas práticas de ciber-higiene.</p>
                 </div>
               </div>
             </div>
           </div>
-
-
-        
         </div>
-      </div>
       </section>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
-      <section></section>
+
+<!-- Os profissionais de cibersegurança
+  ================================================== -->
+      <section id="section_4">
+
+      </section>
+
+<!-- Habilidades 
+  ================================================== -->
+      <section id="section_5">
+
+      </section>
    </main>
+   
+<!-- Footer
+   ================================================== -->
+   <footer class="py-3">
+    <div class="container">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="#section_1" class="nav-link px-2 text-body-secondary">O que é</a></li>
+        <li class="nav-item"><a href="#section_2" class="nav-link px-2 text-body-secondary">Cibersegurança</a></li>
+      </ul>
+      <p class="text-center text-body-secondary">© 2024 ATEC | Design by Leila Arruda, Lucas Patrício, Olesea Vulpe, Rúben Fonseca</p>
+    </div>
+  </footer>
 
-
-    <!-- Script JS Bootstrap
-    ================================================== -->
+  <!-- Script JS Bootstrap
+  ================================================== -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 

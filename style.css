@@ -7,8 +7,14 @@
 *   Formandos: Leila Arruda, Lucas Patrício, Olesea Vulpe, Rúben Fonseca
 ===================================================================== */
 body{
+    background-color: aliceblue;
+}
+
+header{
     background-color: black;
 }
+
+/*-------------- Header ----------------- */
 
 #titulo{
     color: rgba(240, 248, 255, 0.63);
@@ -19,14 +25,17 @@ body{
     align-items: center;
  }
 
-section{
+/*section{
     height: 650px;
     background-color: aliceblue;
     border-style: solid;
     border-width: 3px;
     border-color: #09090a;
-}
-.section_1{
+}*/
+
+/*-------Section 1: O que é cibersegurança -------- */
+
+#section_1{
     color: rgba(246, 248, 251, 0.736);
     font-size: 1.5rem;
     background-color: #00181e;
@@ -38,25 +47,37 @@ section{
     font-size: 3rem;
 }
 
-.section_2{
+/*-------Section 2: Os quatro pilares -------- */
+
+#section_2{
     height: 1000px;
 }
- 
-.list-group-item {
-    border: none;
-    color: #7f6a34;
-    --bs-list-group-active-bg: #7f6a34;
+
+.pic {
+    width: 100%;
 }
 
-.section_3{
+/*-------Section 3: Accordion ---------------- */
+
+#section_3{
     background-color: #00181e;
 }
 
 .accordion-button{
     color: #00181e;
     font-size: 1.5rem;
-    --bs-accordion-active-color: #f3f0f0;
+    --bs-accordion-btn-color: aliceblue;
+    --bs-accordion-active-color: aliceblue;
     --bs-accordion-active-bg: #00181e;
     --bs-accordion-btn-focus-box-shadow: none;
 }
 
+/*-------Section 4:  ---------------- */
+
+/*-------Section 5:  ---------------- */
+
+/*-------Footer --------------------- */
+
+footer{
+    background-color: aliceblue ;
+}
