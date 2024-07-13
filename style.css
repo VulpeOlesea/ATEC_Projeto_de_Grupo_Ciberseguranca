@@ -14,24 +14,25 @@ header{
     background-color: black;
 }
 
+/* Todas as imagens */
+.pics{
+    width: 100%;
+}
+
+.dropdown-menu {
+    --bs-dropdown-link-active-bg: none;
+}
+
 /*-------------- Header ----------------- */
 
 #titulo{
     color: rgba(240, 248, 255, 0.63);
     font-size: 10rem;
     display: flex;
-    height: 100vh;
+    height: 40vw;
     justify-content: center;
     align-items: center;
  }
-
-/*section{
-    height: 650px;
-    background-color: aliceblue;
-    border-style: solid;
-    border-width: 3px;
-    border-color: #09090a;
-}*/
 
 /*-------Section 1: O que é cibersegurança -------- */
 
@@ -49,8 +50,9 @@ header{
 
 /*-------Section 2: Os quatro pilares -------- */
 
-.pic {
-    width: 100%;
+#section_2 .bi{
+    color:#7f6a34;
+    font-size: 3rem;
 }
 
 /*-------Section 3: Accordion ---------------- */
@@ -61,7 +63,7 @@ header{
 
 .accordion {
     --bs-accordion-bg: aliceblue;
-    --bs-accordion-btn-bg: aliceblue;
+    --bs-accordion-btn-bg: #b3c4c8;
 }
 
 .accordion-button{
@@ -72,6 +74,28 @@ header{
     --bs-accordion-active-bg: #00181e;
     --bs-accordion-btn-focus-box-shadow: none;
 }
+
+/* Tabela em accordion */
+.table{ 
+    --bs-table-bg: aliceblue;
+}
+
+/* Ícones em tabela */
+#red{
+    font-size: 1.8rem;
+    color: rgb(171, 4, 4);
+}
+
+#yellow{
+    font-size: 1.8rem;
+    color: rgb(219, 158, 17);
+}
+
+#green{
+    font-size: 1.8rem;
+    color: rgb(15, 112, 28);
+}
+
 
 /*--Section 4: Os profissionais de cibersegurança - */
 
@@ -86,22 +110,14 @@ header{
         }
 }
 
-.pics{
-    width: 100%;
-}
-
 /*-------Section 5: Habilidades ------------- */
 
 #section_5 li{ text-align: left;}
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    background-color: #7f6a34;
-    
-}
-
+/* Cor dos botões */
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link { background-color: #7f6a34; }
 .nav {--bs-nav-link-hover-color: none;}
 .nav-link{ color: #7f6a34;}
-
 .nav-pills {
     color: #7f6a34;
     width: 25rem;
@@ -113,7 +129,5 @@ header{
 
 /*-------Footer ---------------------------- */
 
-footer{
-    background-color: rgb(189, 195, 200) ;
-}
+footer{ background-color: rgb(189, 195, 200) ;}
 

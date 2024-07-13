@@ -22,7 +22,6 @@
     <!-- CSS
     ================================================== -->
   <link rel="stylesheet" href="style.css">
-  <script src="script.js"></script>
 
 </head>
 
@@ -75,8 +74,9 @@
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
       </div>
+      <!-- ------ Slide 1 ---------------------------  -->
       <div class="carousel-inner">
-        <div class="carousel-item">
+        <div class="carousel-item active">
           <img src="./img/banner.jpeg" class="opacity-50" width="100%" height="100%">
           <div class="container">
             <div class="carousel-caption">
@@ -85,23 +85,22 @@
             </div>
           </div>
         </div>
-        <div class="carousel-item active">
+        <!-- ----- Slide 2 ---------------------------  -->
+        <div class="carousel-item">
           <img src="./img/banner.jpeg" class="opacity-50" width="100%" height="100%">
           <div class="container">
             <div class="carousel-caption text-end">
               <h1>Sobre Nós</h1>
               <p><b>TPSI PL 1223 | Curso de Técnico/a Especialista em Tecnologias e Programação de Sistemas de Informação 
-              <br>5415 - WEB - hipermédia e acessibilidades</b></p>
-    
+              <br>5415 - WEB - hipermédia e acessibilidades orientado pela formadora Rute Solipa</b></p>
               <p>
-                  No ambito da UFCD 5415 foi nos pedido que construíssemos um site utilizando HTML, CSS, JavaScript e
-                  JQuery. <br> Durante a seleção de temas, foi nos atribuído o tema de Cibersegurança no dia a dia. <br>
-                  Para a realização do site, utilizamos um template base, para facilitar na construção de uma estrutura.
+                  No ambito da UFCD 5415 foi nos pedido que construíssemos um site utilizando o Bootstrap. <br> Durante a seleção de temas, foi nos atribuído o tema de Cibersegurança no dia a dia.
               </p>
             </div>
           </div>
         </div>
       </div>
+      <!-- ----- As setas ---------------------------  -->
       <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
@@ -116,7 +115,7 @@
 
    <main>
 
-<!-- O que é
+<!-- O que é / Section 1
    ================================================== -->
       <section id="section_1">
         <div class="container px-4 py-5">
@@ -127,7 +126,7 @@
         </div>
       </section>
       
-<!-- Os quatro pilares
+<!-- Os quatro pilares / Section 2
    ================================================== -->
       <section id="section_2">
         <div class="container px-4 py-5">
@@ -143,16 +142,13 @@
                 fundamentais que qualquer organização deve adotar na sua
                 estratégia de cibersegurança:
               </p>
-              <img class="pic" src="./img/sec_2.jpg">
+              <img class="pics" src="./img/sec_2.jpg">
             </div>
+
               <div class="col-md-8">
                 <div class="row">
-                  <div class="col-md-6 px-4 py-3">
-                    <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                      <svg class="bi" width="1em" height="1em">
-                        <use xlink:href="#collection"></use>
-                      </svg>
-                    </div>
+                  <div class="col-md-6 px-4 py-1">
+                    <i class="bi bi-shield-check"></i>
                     <h4 class="fw-semibold mb-0 text-body-emphasis">Prevenção ativa</h4>
                     <p class="text-body-secondary">Este primeiro pilar, procura
                     evitar danos e pode ser feita de várias formas. Desde logo,
@@ -161,12 +157,8 @@
                     vulnerabilidades e garantindo a atualização permanente dos
                     sistemas em utilização.</p>
                   </div>
-                  <div class="col-md-6 px-4 py-3">
-                    <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                      <svg class="bi" width="1em" height="1em">
-                        <use xlink:href="#collection"></use>
-                      </svg>
-                    </div>
+                  <div class="col-md-6 px-4 py-1">
+                    <i class="bi bi-shield-shaded"></i>
                     <h4 class="fw-semibold mb-0 text-body-emphasis">Proteção ativa</h4>
                     <p class="text-body-secondary">Este passo implica apostar na
                     defesa de todos os perímetros e infraestruturas tecnológicas
@@ -178,12 +170,8 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-md-6 px-4 py-3">
-                    <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                      <svg class="bi" width="1em" height="1em">
-                        <use xlink:href="#collection"></use>
-                      </svg>
-                    </div>
+                  <div class="col-md-6 px-4 py-1">
+                    <i class="bi bi-shield-exclamation"></i>
                     <h4 class="fw-semibold mb-0 text-body-emphasis">A deteção e a contrarresposta</h4>
                     <p class="text-body-secondary">É outro dos pilares a ter em
                     conta. É, na prática, um sistema de vigilância ativa que
@@ -197,12 +185,8 @@
                     responder às tentativas de cibercrime, como é o caso do
                     serviço Cyber Protecht.</p>
                   </div>
-                  <div class="col-md-6 px-4 py-3">
-                    <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
-                      <svg class="bi" width="1em" height="1em">
-                        <use xlink:href="#collection"></use>
-                      </svg>
-                    </div>
+                  <div class="col-md-6 px-4 py-1">
+                    <i class="bi bi-shield-plus"></i>
                     <h4 class="fw-semibold mb-0 text-body-emphasis">Recuperação ativa</h4>
                     <p class="text-body-secondary">Por fim, mas igualmente
                     importante, no caso da empresa sofrer um ataque eficaz,
@@ -220,15 +204,16 @@
         </div>
       </section>
 
-<!-- Accordion
+<!-- Accordion / Section 3
    ================================================== -->
       <section id="section_3">
         <div class="container px-4 py-5">
           <div class="accordion" id="accordionPanelsStayOpenExample">
+            <!-- ----- Accordion section 1 ---------------------------  -->
             <div id="acc1" class="accordion-item mx-2 my-2">
               <h2 class="accordion-header">
                 <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse1" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                  <i class="bi bi-shield-exclamation"> Cibersegurança em Portugal</i>
+                  <i class="bi bi-shield-shaded"> Cibersegurança em Portugal</i>
                 </button>
               </h2>
               <div id="panelsStayOpen-collapse1" class="accordion-collapse collapse show">
@@ -246,17 +231,19 @@
                 </div>
               </div>
             </div>
+            <!-- ----- Accordion section 2 ---------------------------  -->
             <div id="acc2" class="accordion-item mx-2 my-2">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse2" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                  <i class="bi bi-shield-exclamation"> Cibersegurança nas empresas</i>
+                  <i class="bi bi-shield-shaded"> Cibersegurança nas empresas</i>
                 </button>
               </h2>
               <div id="panelsStayOpen-collapse2" class="accordion-collapse collapse">
                 <div class="accordion-body">
                   <div class="row">
                     <div class="col-6">
-                      <p>O Inquérito à utilização das TIC nas empresas, realizado pelo Eurostat (2023a-g) e pelo Instituto Nacional de Estatística (INE) para Portugal, apresenta atualizações importantes em 2022 relativamente à componente de segurança. À luz destes dados, verifica-se que em Portugal existiam mais empresas10 com Política de Segurança das TIC definida e revista pelo menos nos últimos 24 meses em 2022 (43%) do que em 201911 (26%) e do que a média da UE (32%).</p>
+                      <p>O Inquérito à utilização das TIC nas empresas, realizado pelo Eurostat (2023a-g) e pelo Instituto Nacional de Estatística (INE) para Portugal, apresenta atualizações importantes em 2022 relativamente à componente de segurança.</p>
+                      <p>À luz destes dados, verifica-se que em Portugal existiam mais empresas10 com Política de Segurança das TIC definida e revista pelo menos nos últimos 24 meses em 2022 (43%) do que em 201911 (26%) e do que a média da UE (32%).</p>
                     </div> 
                     <div class="col-6">
                       <img class="pics" src="./img/cncs_empresa.png">  
@@ -265,10 +252,11 @@
                 </div>
               </div>
             </div>
+            <!-- ----- Accordion section 3 ---------------------------  -->
             <div id="acc3" class="accordion-item mx-2 my-2">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse3" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                  <i class="bi bi-shield-exclamation"> Ações de sensibilização e educação</i>
+                  <i class="bi bi-shield-check"> Ações de sensibilização e educação</i>
                 </button>
               </h2>
               <div id="panelsStayOpen-collapse3" class="accordion-collapse collapse">
@@ -285,6 +273,7 @@
                 </div>
               </div>
             </div>
+            <!-- ----- Accordion section 4 ---------------------------  -->
             <div id="acc4" class="accordion-item mx-2 my-2">
               <h2 class="accordion-header">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse4" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
@@ -295,11 +284,134 @@
                 <div class="accordion-body">
                   <div class="row">
                     <div class="col-6">
-                      <p>Os principais resultados da análise destacam as ameaças predominantes no ciberespaço, como ransomware, phishing e engenharia social, e a necessidade de mitigação por meio de controles técnicos e envolvimento humano. O aumento do uso digital expõe mais indivíduos a riscos, mas a maior notoriedade do tema pode melhorar a conscientização. A falta de políticas de segurança e de recursos humanos especializados, especialmente na Administração Pública, prejudica a capacidade de proteção. Ações de sensibilização e o crescimento de cursos especializados são cruciais para melhorar a resposta às ameaças e disseminar boas práticas de ciber-higiene.</p>
+                      <p>Os principais resultados da análise destacam as ameaças predominantes no ciberespaço, como ransomware, phishing e engenharia social, e a necessidade de mitigação por meio de controles técnicos e envolvimento humano. O aumento do uso digital expõe mais indivíduos a riscos, mas a maior notoriedade do tema pode melhorar a conscientização. </p>
                     </div> 
                     <div class="col-6">
-                      <img class="pics" src="./img/ameaca.jpg">  
-                    </div>               
+                      <p>A falta de políticas de segurança e de recursos humanos especializados, especialmente na Administração Pública, prejudica a capacidade de proteção. Ações de sensibilização e o crescimento de cursos especializados são cruciais para melhorar a resposta às ameaças e disseminar boas práticas de ciber-higiene.</p>
+                    </div> 
+                  </div>
+                  <hr />
+                  <!--------------------------------- Tabela -------------------------->
+                  <div class="table-responsive">
+                    <table class="table table-striped table-hover">
+                      <thead>
+                        <tr>
+                          <th scope="col">Resultados de Sociedade 2023/ Ameaças em Riscos e Conflitos 2023 (CNCS, 2023)</th>
+                          <th scope="col">Ransomware</th>
+                          <th scope="col">Phishing Smishing Vishing</th>
+                          <th scope="col">Burla online</th>
+                          <th scope="col">Comprometimento<br> de contas/ <br>tentativa de login</th>
+                          <th scope="col">Engenharia social (várias)</th>
+                          <th scope="col">Cibersabotagem/ indisponibilidade</th>
+                        </tr>
+                      </thead>
+                      <tbody class="table-group-divider">
+                        <tr>
+                          <th scope="row">Maior risco fruto de aumento dos usos da Internet e serviços digitais
+                          </th>
+                          <td><i id="red" class="bi bi-shield-slash"></i></td>
+                          <td><i id="red" class="bi bi-shield-slash"></i></td>
+                          <td><i id="red" class="bi bi-shield-slash"></i></td>
+                          <td><i id="red" class="bi bi-shield-slash"></i></td>
+                          <td><i id="red" class="bi bi-shield-slash"></i></td>
+                          <td><i id="yellow" class="bi bi-shield-exclamation"></i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Maior notoriedade do tema da cibersegurança</th>
+                          <td><i id="green" class="bi bi-shield-check"></i></td>
+                          <td><i id="green" class="bi bi-shield-check"></i></td>
+                          <td><i id="green" class="bi bi-shield-check"></i></td>
+                          <td><i id="green" class="bi bi-shield-check"></i></td>
+                          <td><i id="green" class="bi bi-shield-check"></i></td>
+                          <td><i id="green" class="bi bi-shield-check"></i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Insuficiente adoção de Politicas e Estratégias de Segurança de Informação (embora tendência positiva nas empresas)
+                          </th>
+                          <td><i id="red" class="bi bi-shield-slash"></i></td>
+                          <td><i id="red" class="bi bi-shield-slash"></i></td>
+                          <td><i id="red" class="bi bi-shield-slash"></i></td>
+                          <td><i id="red" class="bi bi-shield-slash"></i></td>
+                          <td><i id="red" class="bi bi-shield-slash"></i></td>
+                          <td><i id="red" class="bi bi-shield-slash"></i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Aplicação elevada de algumas medidas nas organizações (e.g.atualização do software, uso de palavras-passe seguras)
+                          </th>
+                          <td><i id="green" class="bi bi-shield-check"></i></td>
+                          <td><i id="green" class="bi bi-shield-check"></i></td>
+                          <td><i id="green" class="bi bi-shield-check"></i></td>
+                          <td><i id="green" class="bi bi-shield-check"></i></td>
+                          <td><i id="green" class="bi bi-shield-check"></i></td>
+                          <td><i id="green" class="bi bi-shield-check"></i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Aplicação insuficiente de algumas medidas nas organizações (e.g. múltiplo fator de autenticação)
+                          </th>
+                          <td><i id="red" class="bi bi-shield-slash"></i></td>
+                          <td><i id="red" class="bi bi-shield-slash"></i></td>
+                          <td><i id="red" class="bi bi-shield-slash"></i></td>
+                          <td><i id="red" class="bi bi-shield-slash"></i></td>
+                          <td><i id="red" class="bi bi-shield-slash"></i></td>
+                          <td><i id="red" class="bi bi-shield-slash"></i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Elevada necessidade de competências em segurança das TIC na Administração Pública 
+                          </th>
+                          <td><i id="red" class="bi bi-shield-slash"></i></td>
+                          <td><i id="red" class="bi bi-shield-slash"></i></td>
+                          <td><i id="yellow" class="bi bi-shield-exclamation"></i></td>
+                          <td><i id="red" class="bi bi-shield-slash"></i></td>
+                          <td><i id="yellow" class="bi bi-shield-exclamation"></i></td>
+                          <td><i id="red" class="bi bi-shield-slash"></i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Insuficiente disponibilização de recomendações sobre segurança das TIC nas organizações (embora tendência positiva nas empresas) 
+                          </th>
+                          <td><i id="red" class="bi bi-shield-slash"></i></td>
+                          <td><i id="red" class="bi bi-shield-slash"></i></td>
+                          <td><i id="red" class="bi bi-shield-slash"></i></td>
+                          <td><i id="red" class="bi bi-shield-slash"></i></td>
+                          <td><i id="red" class="bi bi-shield-slash"></i></td>
+                          <td><i id="yellow" class="bi bi-shield-exclamation"></i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Existência de ações de sensibilização dirigidas ao publico em geral com canais variados e maior precisão nos públicos e temas
+                          </th>
+                          <td><i id="yellow" class="bi bi-shield-exclamation"></i></td>
+                          <td><i id="green" class="bi bi-shield-check"></i></td>
+                          <td><i id="green" class="bi bi-shield-check"></i></td>
+                          <td><i id="green" class="bi bi-shield-check"></i></td>
+                          <td><i id="green" class="bi bi-shield-check"></i></td>
+                          <td><i id="yellow" class="bi bi-shield-exclamation"></i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Mais organizações a sensibilizar os seus empregados
+                          </th>
+                          <td><i id="green" class="bi bi-shield-check"></i></td>
+                          <td><i id="green" class="bi bi-shield-check"></i></td>
+                          <td><i id="green" class="bi bi-shield-check"></i></td>
+                          <td><i id="green" class="bi bi-shield-check"></i></td>
+                          <td><i id="green" class="bi bi-shield-check"></i></td>
+                          <td><i id="yellow" class="bi bi-shield-exclamation"></i></td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Mais cursos do ensino superior especializados, bem como alunos inscritos e diplomados
+                          </th>
+                          <td><i id="green" class="bi bi-shield-check"></i></td>
+                          <td><i id="green" class="bi bi-shield-check"></i></td>
+                          <td><i id="green" class="bi bi-shield-check"></i></td>
+                          <td><i id="green" class="bi bi-shield-check"></i></td>
+                          <td><i id="green" class="bi bi-shield-check"></i></td>
+                          <td><i id="green" class="bi bi-shield-check"></i></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <hr />
+                    <i id="red" class="bi bi-shield-slash"></i> - Contributo negativo para a mitigação da ameaça <br>
+                    <i id="green" class="bi bi-shield-check"></i> - Contributo positivo para a mitigação da ameaça <br>
+                    <i id="yellow" class="bi bi-shield-exclamation"></i> - Contributo não decisivo para a mitigação da ameaça <br>
+                  </div>
                 </div>
               </div>
             </div>
@@ -307,7 +419,7 @@
         </div>
       </section>
 
-<!-- Os profissionais de cibersegurança
+<!-- Os profissionais de cibersegurança / Section 4
   ================================================== -->
       <section id="section_4">
         <div class="container px-4 py-5" id="icon-grid">
@@ -319,6 +431,7 @@
             As principais tarefas incluem:
           </p>
           <hr />
+
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-4 py-2">
               <div class="col d-flex align-items-start">
                 <div>
@@ -384,7 +497,7 @@
         </div>
       </section>
 
-<!-- Habilidades 
+<!-- Habilidades / Section 5
   ================================================== -->
   <section id="section_5">
     <div class="container px-4 py-5">
@@ -393,11 +506,13 @@
         Principais habilidades que os profissionais recomendam ter
       </p>
       <hr />
+      <!-- ----- Buttons ---------------------------  -->
       <div class="d-flex align-items-start">
         <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
           <button class="nav-link active" id="v-pills-1-tab" data-bs-toggle="pill" data-bs-target="#v-pills-1" type="button" role="tab" aria-controls="v-pills-1" aria-selected="true"><b>SOFT SKILLS</b></button>
           <button class="nav-link" id="v-pills-2-tab" data-bs-toggle="pill" data-bs-target="#v-pills-2" type="button" role="tab" aria-controls="v-pills-2" aria-selected="false"><b>HARD SKILLS</b></button>
         </div>
+        <!-- ----- Soft skills ---------------------------  -->
         <div class="tab-content" id="v-pills-tabContent">
           <div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-1-tab" tabindex="0">
             <ul>
@@ -409,6 +524,7 @@
               <li>Capacidade de manter a calma em tempos difíceis</li> 
             </ul>
           </div>
+          <!-- ----- Hard skills ---------------------------  -->
           <div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-2-tab" tabindex="0">
             <ul>
               <li>Noções básicas de ciência da computação</li>
@@ -443,6 +559,15 @@
   <!-- Script JS Bootstrap
   ================================================== -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+  <!-- ----- Click em dropdown ---------------------------  -->
+  <script>
+    function GoToRef(num)
+    {
+    var title = document.getElementById("acc"+num)
+    title.scrollIntoView()
+    }
+  </script>
 </body>
 
 </html>
