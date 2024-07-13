@@ -35,11 +35,11 @@ header{
 
 /*-------Section 1: O que é cibersegurança -------- */
 
-#section_1{
+#section_1, #section_5{
     color: rgba(246, 248, 251, 0.736);
-    font-size: 1.5rem;
     background-color: #00181e;
     text-align: center;
+        p {font-size: 1.5rem;}    
 }
 
 #titulo_1{
@@ -48,10 +48,6 @@ header{
 }
 
 /*-------Section 2: Os quatro pilares -------- */
-
-#section_2{
-    height: 1000px;
-}
 
 .pic {
     width: 100%;
@@ -63,6 +59,11 @@ header{
     background-color: #00181e;
 }
 
+.accordion {
+    --bs-accordion-bg: aliceblue;
+    --bs-accordion-btn-bg: aliceblue;
+}
+
 .accordion-button{
     color: #00181e;
     font-size: 1.5rem;
@@ -72,12 +73,47 @@ header{
     --bs-accordion-btn-focus-box-shadow: none;
 }
 
-/*-------Section 4:  ---------------- */
+/*--Section 4: Os profissionais de cibersegurança - */
 
-/*-------Section 5:  ---------------- */
+#section_4 {
+    text-align: center;
+        .bi{
+            color:#7f6a34;
+            font-size: 2rem;
+        }
+        .row{
+            text-align: left;
+        }
+}
 
-/*-------Footer --------------------- */
+.pics{
+    width: 100%;
+}
+
+/*-------Section 5: Habilidades ------------- */
+
+#section_5 li{ text-align: left;}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    background-color: #7f6a34;
+    
+}
+
+.nav {--bs-nav-link-hover-color: none;}
+.nav-link{ color: #7f6a34;}
+
+.nav-pills {
+    color: #7f6a34;
+    width: 25rem;
+}
+
+#section_5 .d-flex {
+    justify-content: center;
+}
+
+/*-------Footer ---------------------------- */
 
 footer{
-    background-color: aliceblue ;
+    background-color: rgb(189, 195, 200) ;
 }
+
