@@ -22,6 +22,7 @@
     <!-- CSS
     ================================================== -->
   <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
 
 </head>
 
@@ -50,10 +51,10 @@
               <a class="nav-link dropdown-toggle" href="#section_2" data-bs-toggle="dropdown" aria-expanded="false"><b>Cibersegurança</b></a>
               <ul class="dropdown-menu">
                 <li><a class="dropdown-item" href="#section_2">Cibersegurança</a></li>
-                <li><a class="dropdown-item" href="#">Cibersegurança em Portugal</a></li>
-                <li><a class="dropdown-item" href="#">Cibersegurança nas empresas</a></li>
-                <li><a class="dropdown-item" href="#">Ações de sensibilização e educação</a></li>
-                <li><a class="dropdown-item" href="#">Os cenários de ameaça</a></li>
+                <li><a id="accRef1" class="dropdown-item" onclick=GoToRef(1)> Cibersegurança em Portugal</a></li>
+                <li><a id="accRef2" class="dropdown-item" onclick=GoToRef(2)>Cibersegurança nas empresas</a></li>
+                <li><a id="accRef3" class="dropdown-item" onclick=GoToRef(3)>Ações de sensibilização e educação</a></li>
+                <li><a id="accRef4" class="dropdown-item" onclick=GoToRef(4)>Os cenários de ameaça</a></li>
               </ul>
             </li>
             <li class="nav-item">
@@ -131,7 +132,7 @@
       <section id="section_2">
         <div class="container px-4 py-5">
           <div class="row">
-            <div class="col-4">
+            <div class="col-md-4 px-4 py-3">
               <h2 class="fw-bold text-body-emphasis">Os quatro pilares da cibersegurança:</h2>
               <p class="text-body-secondary">É fundamental reconhecer as
                 ameaças, endereçá-las com a implementação de uma estratégia
@@ -144,9 +145,9 @@
               </p>
               <img class="pic" src="./img/sec_2.jpg">
             </div>
-              <div class="col-8">
+              <div class="col-md-8">
                 <div class="row">
-                  <div class="col-6">
+                  <div class="col-md-6 px-4 py-3">
                     <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
                       <svg class="bi" width="1em" height="1em">
                         <use xlink:href="#collection"></use>
@@ -160,7 +161,7 @@
                     vulnerabilidades e garantindo a atualização permanente dos
                     sistemas em utilização.</p>
                   </div>
-                  <div class="col-6">
+                  <div class="col-md-6 px-4 py-3">
                     <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
                       <svg class="bi" width="1em" height="1em">
                         <use xlink:href="#collection"></use>
@@ -177,7 +178,7 @@
                   </div>
                 </div>
                 <div class="row">
-                  <div class="col-6">
+                  <div class="col-md-6 px-4 py-3">
                     <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
                       <svg class="bi" width="1em" height="1em">
                         <use xlink:href="#collection"></use>
@@ -196,7 +197,7 @@
                     responder às tentativas de cibercrime, como é o caso do
                     serviço Cyber Protecht.</p>
                   </div>
-                  <div class="col-6">
+                  <div class="col-md-6 px-4 py-3">
                     <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3">
                       <svg class="bi" width="1em" height="1em">
                         <use xlink:href="#collection"></use>
@@ -224,13 +225,13 @@
       <section id="section_3">
         <div class="container px-4 py-5">
           <div class="accordion" id="accordionPanelsStayOpenExample">
-            <div class="accordion-item mx-2 my-2">
+            <div id="acc1" class="accordion-item mx-2 my-2">
               <h2 class="accordion-header">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse1" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
                   <i class="bi bi-shield-exclamation"> Cibersegurança em Portugal</i>
                 </button>
               </h2>
-              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+              <div id="panelsStayOpen-collapse1" class="accordion-collapse collapse show">
                 <div class="accordion-body">
                   <div class="row">
                     <div class="col-6">
@@ -245,13 +246,13 @@
                 </div>
               </div>
             </div>
-            <div class="accordion-item mx-2 my-2">
+            <div id="acc2" class="accordion-item mx-2 my-2">
               <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse2" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
                   <i class="bi bi-shield-exclamation"> Cibersegurança nas empresas</i>
                 </button>
               </h2>
-              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+              <div id="panelsStayOpen-collapse2" class="accordion-collapse collapse">
                 <div class="accordion-body">
                   <div class="row">
                     <div class="col-6">
@@ -264,13 +265,13 @@
                 </div>
               </div>
             </div>
-            <div class="accordion-item mx-2 my-2">
+            <div id="acc3" class="accordion-item mx-2 my-2">
               <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse3" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
                   <i class="bi bi-shield-exclamation"> Ações de sensibilização e educação</i>
                 </button>
               </h2>
-              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+              <div id="panelsStayOpen-collapse3" class="accordion-collapse collapse">
                 <div class="accordion-body">
                   <div class="row">
                     <div class="col-6">
@@ -284,13 +285,13 @@
                 </div>
               </div>
             </div>
-            <div class="accordion-item mx-2 my-2">
+            <div id="acc4" class="accordion-item mx-2 my-2">
               <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapse4" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
                   <i class="bi bi-shield-exclamation"> Os cenários de ameaça</i>
                 </button>
               </h2>
-              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+              <div id="panelsStayOpen-collapse4" class="accordion-collapse collapse">
                 <div class="accordion-body">
                   <div class="row">
                     <div class="col-6">
