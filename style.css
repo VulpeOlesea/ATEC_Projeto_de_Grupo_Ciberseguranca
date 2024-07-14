@@ -27,12 +27,14 @@ header{
 
 #titulo{
     color: rgba(240, 248, 255, 0.63);
-    font-size: 10rem;
+    font-size: 9vw;
     display: flex;
-    height: 40vw;
+    height: 35vw;
     justify-content: center;
     align-items: center;
  }
+
+ 
 
 /*-------Section 1: O que é cibersegurança -------- */
 
@@ -78,6 +80,10 @@ header{
 /* Tabela em accordion */
 .table{ 
     --bs-table-bg: aliceblue;
+}
+
+td{
+    text-align: center;
 }
 
 /* Ícones em tabela */
