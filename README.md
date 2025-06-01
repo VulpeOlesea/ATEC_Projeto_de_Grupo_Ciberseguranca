@@ -4,7 +4,8 @@ _ATEC – Curso de Tecnologias e Programação de Sistemas de Informação (Nív
 
 ## 🧠 Sobre o Projeto
 
-Este projeto foi desenvolvido no âmbito da **UFCD 5415 – Trabalho de Grupo**, com o objetivo de explorar o tema **Cibersegurança no dia-a-dia**.
+Este projeto foi desenvolvido no âmbito da **UFCD 5415 – Trabalho de Grupo**, com o objetivo de explorar o tema **"Cibersegurança no dia-a-dia"**.
+
 A apresentação do conteúdo foi realizada sob a forma de **site informativo**, criado com recurso à biblioteca **Bootstrap**, com foco em acessibilidade e design responsivo.
 
 ## 🎯 Objetivos de Aprendizagem
